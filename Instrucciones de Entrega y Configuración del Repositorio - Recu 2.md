@@ -5,7 +5,7 @@
 Antes de comenzar a codificar, debes preparar tu entorno de trabajo para garantizar que la entrega se realice en tu repositorio personal. Sigue estos pasos estrictamente:  
 **Paso 1: Crear el repositorio personal**
 
-Ingresa a tu cuenta de GitHub y crea un nuevo repositorio **público**. El repositorio debe llamarse exactamente: sistema-control-embalses-hidricos. *No lo inicialices con un README, .gitignore ni licencia.*  
+Ingresa a tu cuenta de GitHub y crea un nuevo repositorio **público**. El repositorio debe llamarse exactamente: sistema-control-embalses-hidricos-60. *No lo inicialices con un README, .gitignore ni licencia.*  
 **Paso 2: Clonar el proyecto base de la cátedra**
 
 Abre tu terminal y clona el repositorio con la estructura inicial del parcial:
