@@ -10,7 +10,7 @@ import ar.edu.unahur.obj2.embalses.command.Inyeccion;
 public class VolumenNegativoExceptionTest {
     
 @Test
-public void noSePuedeCrearUnaOperacionConAguaMenorOIgualACero() {
+public void noSePuedeCrearUnaOperacionConaaguaMenoroIgulaACero() {
 
     Embalse embalse = new Embalse("e1", 100);
 

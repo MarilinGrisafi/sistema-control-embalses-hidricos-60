@@ -8,13 +8,13 @@ import ar.edu.unahur.obj2.embalses.Embalse;
 
 public class AlarmaSequiaTest {
     @Test
-public void alarmaSequiaLanzaExcepcionCuandoElEmbalseTieneSaldoNegativo() {
+    void alarmaSequiaLanzaExcepcionCuandoElEmbalseTieneSaldoNegativo() {
 
-    Embalse embalse = new Embalse("E1", -10);
-    AlarmaSequia alarma = new AlarmaSequia();
+        Embalse embalse = new Embalse("E1", -10);
+        AlarmaSequia alarma = new AlarmaSequia();
 
-    assertThrows(IllegalArgumentException.class, () -> {
-        alarma.actualizar(embalse);
-    });
-}
+        assertThrows(IllegalArgumentException.class, () -> {
+            alarma.actualizar(embalse);
+        });
+    }
 }

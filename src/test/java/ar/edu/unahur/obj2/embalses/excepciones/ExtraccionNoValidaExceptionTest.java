@@ -9,7 +9,7 @@ import ar.edu.unahur.obj2.embalses.command.Extraccion;
 
 public class ExtraccionNoValidaExceptionTest {
     @Test
-public void noSePuedeExtraerSiElSaldoQuedaMenorAMenosCincuenta() {
+public void noSePuedeExtraerSiElsaldoQeudaMenorAMenosCincuenta() {
 
     Embalse embalse = new Embalse("e1", 20);
 
