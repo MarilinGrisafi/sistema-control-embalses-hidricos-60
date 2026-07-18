@@ -1,13 +1,14 @@
 package ar.edu.unahur.obj2.embalses.observer;
 
+import ar.edu.unahur.obj2.embalses.Embalse;
+
 public class AlarmaSequia implements Observer{
 
     @Override
-    public void actualizar() {
-        /*Detecta cuándo un embalse queda por
-         debajo de su nivel óptimo (cero hm³) 
-         tras una operación exitosa y advierte 
-         la situación de saldo técnico negativo. */
+    public void actualizar(Embalse embalse) {
+        if (embalse.getVolumen()< 0){
+            throw new IllegalArgumentException("El embalse tiene saldo negativo.");
     }
 
+    }
 }

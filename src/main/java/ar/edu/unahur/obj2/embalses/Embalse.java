@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ar.edu.unahur.obj2.embalses.excepciones.ExtraccionNoValidaException;
-import ar.edu.unahur.obj2.embalses.excepciones.VolumenNegativoException;
 import ar.edu.unahur.obj2.embalses.observer.Observer;
 
 public class Embalse {
@@ -16,9 +15,7 @@ public class Embalse {
 
     
     public Embalse(String id, Integer volumen) {
-        if (volumen <=0){
-            throw new VolumenNegativoException("El volumen no puede ser un valor negativo.");
-        }
+        
         this.id = id;
         this.volumen = volumen;
     }
@@ -55,6 +52,6 @@ public class Embalse {
     }
     
     public void notificar(){
-        observadores.stream().forEach(o->o.actualizar());
+        observadores.stream().forEach(o->o.actualizar(this));
     }
 }
