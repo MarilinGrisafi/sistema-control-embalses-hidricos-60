@@ -54,12 +54,5 @@ public class EmbalseTest {
 
     }
 
-    /*@Test
-    void testNotificar() {
-
-        em.agregarObservador(as);
-        em.inyectar(20);
-        assertEquals(90, as.);
-
-    }*/
+    
 }

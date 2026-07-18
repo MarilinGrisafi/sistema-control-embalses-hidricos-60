@@ -8,7 +8,7 @@ import ar.edu.unahur.obj2.embalses.Embalse;
 
 public class AlarmaSequiaTest {
     @Test
-    void alarmaSequiaLanzaExcepcionCuandoElEmbalseTieneSaldoNegativo() {
+    void alarmaSequiaLanzaExcpecionCuandoElEmbalseTienesaldoNegativo() {
 
         Embalse embalse = new Embalse("E1", -10);
         AlarmaSequia alarma = new AlarmaSequia();
